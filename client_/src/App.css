@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background: url("wall_texture.jpg") no-repeat center center fixed;
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+input {
+  border: 2px solid green;
+  border-radius: 4px;
+  margin: 8px;
+  height: 32px;
+  width: 10%;
+  font-size: 14pt;
+}
+
+button {
+  background-color: grey;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 5px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+td, th {
+  border: 1px solid;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+.dub {
+  background-color: #006400;
+}
+
+.betsNum {
+  background-color: #1F51FF;
+}
+
+.betsNaN {
+  background-color: #9F2B68;
+}
+
+.submitBet {
+  background-color: black;
+}
